@@ -1,0 +1,68 @@
+.chat-container,
+#bFrame {
+  position: relative;
+  height: 50vh;
+  width: 45vw;
+  display: inline-block;
+}
+
+.chat-container-b {
+  position: relative;
+  height: 50vh;
+  width: 45vw;
+  display: inline-block;
+  height: 63vh;
+  width: 100%;
+}
+
+#chatWindow {
+  height: 100%;
+  width: 100%;
+  background: turquoise;
+  padding: 5px;
+}
+
+#chatWindowB {
+  height: 100%;
+  width: 95vw;
+  background-color: aqua;
+}
+
+.input-container {
+  position: absolute;
+  top: calc(100% + 60px);
+  left: 5px;
+  width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+#message {
+  width: 80%;
+  color: black;
+}
+
+#message::placeholder {
+  color: #000;
+}
+
+#bFrame {
+  width: 45vw;
+}
+
+.chat-container-b .input-container {
+  display: flex;
+  position: absolute;
+  top: calc(100% - 20px);
+  width: 100%;
+}
+
+.chat-container-b #messageB {
+  width: 80%;
+}
+
+.send-btn {
+  width: 10%;
+}
